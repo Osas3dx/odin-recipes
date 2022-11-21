@@ -1,0 +1,56 @@
+*{
+    
+    font-family: serif;
+    font-weight: 600px;
+
+}
+body{
+    background: url(./img/African_food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    border-radius: 10px;
+    border: 5px solid  rgb(255, 255, 255);;
+    color: white;
+    width: 40%;
+    margin: auto;
+    background-color: brown;
+}
+
+ul li{
+   
+    text-align: center;
+    padding: 10px;
+    
+}
+
+ul{
+   
+    list-style-position: inside;
+  
+}
+ul li a{
+    
+   
+    padding: 5px;
+    background-color: rgb(28, 61, 6);
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    inline-size: 39px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul li a:hover{
+    background-color: rgb(54, 110, 17);
+    
+}
+
+
+
+video{
+    border-radius: 10px;
+    border: 5px solid  rgb(28, 61, 6);
+    
+}

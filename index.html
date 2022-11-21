@@ -4,16 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     
     <title>My first website</title>
 </head>
 <body>
-    <h1>Odin recipes</h1>
+    <center>
+    <h1>African recipes</h1>
+    <br><br>
+    <video autoplay loop>
+        <source src="./img/1DM.mp4" type="video/mp4">
+   </video>
+    <div class="listOfFood">
     <ul>
         <li><a href="./recipes/jollof_rice.html">Jollof Rice</a></li>
         <li><a href="./recipes/Ogbono_Soup.html">Ogbono Soup</a></li>
         <li><a href="./recipes/Egusi_Soup.html">Egusi Soup</a></li>
     </ul>
+</div>
+</center>
+<script>
+    var x, str, y;
     
+function sayHi(str){
+    str = window.prompt("what's your name")
+
+    console.log("How are you ", str);
+}
+
+alert(sayHi(str));
+</script>
 </body>
 </html>
